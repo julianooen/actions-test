@@ -7,7 +7,8 @@ class SumTest {
     @org.junit.jupiter.api.Test
     void execute() {
         Sum sum = new Sum();
-        assertEquals(6.0, sum.execute(2.0, 3.0));
+        System.out.println("Test 1");
+        assertEquals(5.0, sum.execute(2.0, 3.0));
     }
 
 }
